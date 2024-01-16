@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background:url(../img/snake-bg.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container{
+    max-width:800px;
+    margin:0px auto 0px;
+}
+
+canvas{
+    cursor:pointer;
+}
+
+.title-score{
+    width:100px;
+    background:red;
+    padding:10px;
+    margin-bottom:20px;
+    color:#fff;
+}
+
